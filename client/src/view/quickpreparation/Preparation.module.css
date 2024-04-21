@@ -1,0 +1,21 @@
+.wrapper {
+	padding-top: 7rem;
+}
+
+.title {
+	font-family: Greycliff CF, var(--mantine-font-family);
+	font-size: 1.5rem;
+	text-align: center;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.item {
+	font-size: var(--mantine-font-size-sm);
+	color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-1));
+}
+
+.itemTitle {
+	font-family: Greycliff CF, var(--mantine-font-family);
+	font-weight: 600;
+}

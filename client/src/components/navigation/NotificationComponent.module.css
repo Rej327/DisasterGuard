@@ -1,0 +1,13 @@
+.title {
+	font-family: Greycliff CF, sans-serif;
+}
+
+.contentContainer {
+	padding: 0.5rem 0.5rem 0 0.5rem;
+	border-radius: 0.3rem;
+	transition: 150ms ease;
+}
+
+.contentContainer:hover {
+	background-color: #228be61a;
+}

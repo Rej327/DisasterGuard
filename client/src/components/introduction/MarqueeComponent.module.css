@@ -1,0 +1,26 @@
+.container {
+	overflow: hidden;
+}
+
+.trackerLinks {
+	height: auto;
+	margin: 0 3rem;
+	filter: grayscale(100%);
+	overflow: hidden;
+	transition: 300ms ease;
+}
+
+.trackerLinks:hover {
+	filter: none;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 900;
+	font-family: Greycliff CF, sans-serif;
+}
+
+.marquee {
+	margin: 2rem 0;
+}

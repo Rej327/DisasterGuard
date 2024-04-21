@@ -1,0 +1,85 @@
+.title {
+	font-family: Greycliff CF, sans-serif;
+	font-size: 32px;
+	padding: 0 1rem;
+	width: fit-content;
+	text-align: center;
+	font-weight: 900;
+	color: var(--mantine-color-white);
+	line-height: 1.5;
+	margin: var(--mantine-spacing-xs) 0;
+}
+
+.buttonEmergency {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 1rem;
+	width: 6rem;
+	cursor: pointer;
+}
+
+.buttonEmergency:hover {
+	transform: scale(1.1);
+	transition: 150ms ease;
+}
+
+.card {
+	background-color: light-dark(
+		var(--mantine-color-gray-0),
+		var(--mantine-color-dark-6)
+	);
+}
+
+.modalTitle {
+	font-family: Greycliff CF, var(--mantine-font-family);
+	font-weight: 700;
+}
+
+.item {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: var(--mantine-radius-md);
+	height: rem(90px);
+	background-color: light-dark(
+		var(--mantine-color-white),
+		var(--mantine-color-dark-7)
+	);
+	padding: 1rem;
+	transition: box-shadow 150ms ease, transform 100ms ease;
+}
+
+.item:hover {
+	box-shadow: var(--mantine-shadow-md);
+	transform: scale(1.05);
+}
+
+.container {
+	width: 920px;
+	height: 20rem;
+	padding: 4px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+@media (max-width: 767px) {
+	.container {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.buttonEmergency {
+		width: 5rem;
+	}
+}

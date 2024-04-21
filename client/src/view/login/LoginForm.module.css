@@ -1,0 +1,54 @@
+.wrapper {
+	min-height: rem(900px);
+	background-size: cover;
+}
+
+.bgImg {
+	display: block;
+}
+
+.form {
+	border-right: rem(1px) solid
+		light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+	min-height: rem(900px);
+	max-width: rem(450px);
+	padding-top: rem(80px);
+}
+
+.title {
+	color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+	font-family: Greycliff CF, var(--mantine-font-family);
+}
+
+.errorContainer {
+	display: flex;
+	padding: 1rem;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.3rem;
+	width: 100%;
+	background-color: rgba(51, 4, 4, 0.479);
+	margin-bottom: 1rem;
+}
+
+.errorIcon {
+	padding: 0.1rem;
+	border-radius: 100%;
+	background-color: #e03131;
+	color: white;
+}
+
+.errorMessage {
+	font-family: Greycliff CF, var(--mantine-font-family);
+	color: white;
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 428px) {
+	.bgImg {
+		display: none;
+	}
+}

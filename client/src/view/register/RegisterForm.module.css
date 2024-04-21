@@ -1,0 +1,35 @@
+.wrapper {
+	min-height: rem(900px);
+	background-size: cover;
+}
+
+.bgImg {
+	display: block;
+}
+
+.form {
+	border-right: rem(1px) solid
+		light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+	min-height: rem(900px);
+	max-width: rem(450px);
+	padding-top: rem(80px);
+}
+
+.title {
+	color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+	font-family: Greycliff CF, var(--mantine-font-family);
+}
+
+.notification {
+	transition: transform 0.15s ease-in-out;
+}
+
+.notification.hidden {
+	transform: translateY(-120%);
+}
+
+@media screen and (max-width: 428px) {
+	.bgImg {
+		display: none;
+	}
+}

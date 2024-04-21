@@ -1,0 +1,27 @@
+.wrapper {
+	min-height: rem(900px);
+	background-size: cover;
+}
+
+.bgImg {
+	display: block;
+}
+
+.title {
+	color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+	font-family: Greycliff CF, var(--mantine-font-family);
+}
+
+.notification {
+	transition: transform 0.15s ease-in-out;
+}
+
+.notification.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 428px) {
+	.bgImg {
+		display: none;
+	}
+}

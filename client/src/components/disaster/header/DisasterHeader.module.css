@@ -1,0 +1,12 @@
+.header {
+	margin-top: 5em;
+}
+
+.title {
+	font-family: Greycliff CF, sans-serif;
+	font-size: 32px;
+	padding: 0 1rem;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: var(--mantine-spacing-xs) 0;
+}

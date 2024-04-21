@@ -1,0 +1,14 @@
+.container {
+	background-color: light-dark(
+		var(--mantine-color-gray-0),
+		var(--mantine-color-dark-6)
+	);
+	padding-bottom: 2rem;
+}
+
+.title {
+	font-size: rem(34px);
+	font-weight: 900;
+	text-align: center;
+	margin-top: 40px;
+}

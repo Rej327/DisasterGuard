@@ -1,0 +1,33 @@
+.title {
+	font-family: Greycliff CF, sans-serif;
+	font-size: 32px;
+	padding: 0 1rem;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: var(--mantine-spacing-xs) 0;
+}
+
+.list {
+	line-height: 2rem;
+}
+
+.itemContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	@media screen and (max-width: 560px) {
+		flex-direction: column;
+		justify-self: center;
+		width: 100%;
+	}
+}
+
+.globalTitle {
+	text-decoration: underline;
+	text-underline-offset: 0.3rem;
+}
+
+.loader {
+	margin: 40vh auto;
+}

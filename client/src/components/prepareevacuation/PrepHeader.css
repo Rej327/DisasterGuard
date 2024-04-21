@@ -1,0 +1,47 @@
+.parallax-background {
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-text {
+	background-color: #f8f9fa;
+	color: #001324;
+	font-weight: 500;
+	padding: 2rem 2rem 2rem 15rem;
+	font-size: 4rem;
+}
+
+@media (max-width: 767px) {
+	.header-text {
+		padding: 2rem 2rem 2rem 5rem;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.header-text {
+		padding: 2rem 2rem 2rem 10rem;
+
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.header-text {
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+	.header-text {
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 1536px) {
+	.header-text {
+		font-size: 4rem;
+	}
+}

@@ -1,0 +1,40 @@
+h2 {
+	font-family: Greycliff CF, sans-serif;
+	font-size: 24px;
+	padding: 0 1rem;
+	width: fit-content;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: var(--mantine-spacing-xs) 0;
+}
+
+.span {
+	font-weight: 900;
+}
+
+.carouselCard {
+	height: rem(440px);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.carouselTitle {
+	font-family: Greycliff CF, sans-serif;
+	font-weight: 900;
+	color: var(--mantine-color-white);
+	font-size: rem(34px);
+	width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 900;
+	text-align: center;
+	color: var(--mantine-color-white);
+}
